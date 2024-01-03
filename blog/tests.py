@@ -3,6 +3,7 @@ from django.urls import reverse
 from django.contrib.auth import get_user_model
 
 from .models import Post
+# revisit to see why tests are failing
 
 class BlogTests(TestCase):
     """tests for blog"""
